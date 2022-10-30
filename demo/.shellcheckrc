@@ -1,2 +1,2 @@
 # ~/.shellcheckrc
-disable=SC1091,SC2006,SC2005,SC2086,
+disable=SC1091,SC2006,SC2005,SC2086
