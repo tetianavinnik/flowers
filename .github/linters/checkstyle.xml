@@ -12,9 +12,9 @@
 
     <!-- Checks that no tab characters in the source code. -->
     <!-- Reports only first instance. -->
-<!--    <module name="FileTabCharacter">-->
-<!--        <property name="eachLine" value="false"/>-->
-<!--    </module>-->
+    <module name="FileTabCharacter">
+        <property name="eachLine" value="false"/>
+    </module>
 
 
     <!-- Checks that no file is more than 1500 lines long. -->
@@ -90,12 +90,12 @@
         </module>
         <module name="IllegalInstantiation"/>
         <module name="InnerAssignment"/>
-<!--        <module name="MagicNumber">-->
-<!--            <property name="tokens"-->
-<!--                      value="NUM_DOUBLE, NUM_FLOAT, NUM_INT, NUM_LONG"/>-->
-<!--            <property name="ignoreNumbers" value="-1, 0, 0.5, 1, 2"/>-->
-<!--            <property name="ignoreHashCodeMethod" value="true"/>-->
-<!--        </module>-->
+        <module name="MagicNumber">
+            <property name="tokens"
+                      value="NUM_DOUBLE, NUM_FLOAT, NUM_INT, NUM_LONG"/>
+            <property name="ignoreNumbers" value="-1, 0, 0.5, 1, 2"/>
+            <property name="ignoreHashCodeMethod" value="true"/>
+        </module>
         <module name="MissingSwitchDefault"/>
         <module name="ModifiedControlVariable"/>
         <module name="SimplifyBooleanExpression"/>
@@ -110,9 +110,9 @@
         <module name="NestedTryDepth">
             <property name="max" value="1"/>
         </module>
-<!--        <module name="NoClone"/>-->
+        <module name="NoClone"/>
         <module name="NoFinalizer"/>
-<!--        <module name="SuperClone"/>-->
+        <module name="SuperClone"/>
         <module name="SuperFinalize"/>
 
         <!-- Avoid masking of OutOfMemoryError or NullPointerExceptionError -->
@@ -150,7 +150,7 @@
         <!-- http://checkstyle.sourceforge.net/config_imports.html                       -->
         <!-- =========================================================================== -->
         <module name="AvoidStarImport"/>
-<!--        <module name="AvoidStaticImport"/>-->
+        <module name="AvoidStaticImport"/>
 
         <module name="IllegalImport">
             <property name="illegalPkgs"
@@ -283,7 +283,7 @@
         <module name="ParenPad"/>
         <module name="TypecastParenPad"/>
         <module name="WhitespaceAfter"/>
-<!--        <module name="WhitespaceAround">-->
+        <module name="WhitespaceAround">
             <!-- removed PLUS, MINUS, STAR, DIV -->
             <!-- removed GENERIC_START, GENERIC_END -->
             <property name="tokens"
@@ -303,4 +303,4 @@
 
     </module>
 
-<!--</module>-->
+</module>
